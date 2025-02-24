@@ -12,13 +12,7 @@
       "profiles": [
         {
           "network": "GitHub",
-          "username": "lkm1321",
           "url": "https://github.com/lkm1321"
-        },
-        {
-          "network": "GitHub",
-          "username": "hugo-mod-json-resume",
-          "url": "https://github.com/schnerring/hugo-mod-json-resume"
         },
         {
           "network": "X",
@@ -27,18 +21,6 @@
         {
           "network": "fandom",
           "url": "https://silicon-valley.fandom.com/wiki/Richard_Hendricks"
-        },
-        {
-          "network": "HBO",
-          "url": "https://www.hbo.com/silicon-valley"
-        },
-        {
-          "network": "IMDB",
-          "url": "https://www.imdb.com/title/tt2575988/"
-        },
-        {
-          "network": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_Silicon_Valley_characters#Richard_Hendricks"
         }
       ]
     },
@@ -72,14 +54,22 @@
     ],
     "education": [
       {
+        "institution": "University of Technology Sydney",
+        "url": "https://www.ou.edu/",
+        "area": "Robotics",
+        "studyType": "Ph. D.",
+        "startDate": "2011-06-01",
+        "endDate": "2014-01-01"
+      },
+
+      {
         "institution": "University of Oklahoma",
         "url": "https://www.ou.edu/",
-        "area": "Information Technology",
-        "studyType": "Bachelor",
+        "area": "Mechatronics (Space)",
+        "studyType": "B. Eng. (Hons I)",
         "startDate": "2011-06-01",
         "endDate": "2014-01-01",
-        "score": "4.0",
-        "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
+        "score": "4.0"
       }
     ],
     "awards": [

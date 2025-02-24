@@ -1,6 +1,6 @@
 baseURL = 'https://kmblee.dev/'
 languageCode = 'en-us'
-title = 'K. M. Brian Lee (이기명)'
+title = 'Curious Robots'
 
 [markup]
   # (Optional) To be able to use all Prism plugins, the theme enables unsafe
@@ -18,10 +18,6 @@ title = 'K. M. Brian Lee (이기명)'
     path = "hugo-theme-gruvbox"
   [[module.imports]]
     path = "hugo-mod-json-resume"
-    [[module.imports.mounts]]
-      # This will add the sample Richard Hendricks CV data
-      source = "data"
-      target = "data"
     [[module.imports.mounts]]
       source = "layouts"
       target = "layouts"
@@ -60,3 +56,29 @@ title = 'K. M. Brian Lee (이기명)'
     # Add hugo_stats.json to Hugo's server watcher
     source = "hugo_stats.json"
     target = "assets/watching/hugo_stats.json"
+
+[params]
+  author = "Ki Myung Brian Lee"
+  subtitle = "Academic Webpage"
+  description = "Welcome to my academic webpage!"
+  
+  [params.logo]
+    text = "kmblee"
+    url = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 20
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv"
+    weight = 30
