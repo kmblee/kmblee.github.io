@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/hugo,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=hugo,node
 
+### MacOS ###
+**/.DS_Store
+
 ### Hugo ###
 # Generated files by hugo
 /public/

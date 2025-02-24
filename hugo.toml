@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://kmblee.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'K. M. Brian Lee (이기명)'
 
 [markup]
   # (Optional) To be able to use all Prism plugins, the theme enables unsafe
