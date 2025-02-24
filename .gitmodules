@@ -1,0 +1,6 @@
+[submodule "themes/hugo-theme-gruvbox"]
+	path = themes/hugo-theme-gruvbox
+	url = git@github.com:lkm1321/hugo-theme-gruvbox.git
+[submodule "themes/hugo-mod-json-resume"]
+	path = themes/hugo-mod-json-resume
+	url = git@github.com:lkm1321/hugo-mod-json-resume.git
