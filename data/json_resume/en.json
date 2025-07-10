@@ -3,7 +3,7 @@
     "basics": {
       "name": "Ki Myung Brian Lee (이기명)",
       "label": "Roboticist. PostDoc @ UC San Diego",
-      "image": "images/me_bw.webp",
+      "image": "./me_bw.webp",
       "email": "kmblee at ucsd dot edu",
       "summary": "I am a robotics researcher.",
       "location": {
