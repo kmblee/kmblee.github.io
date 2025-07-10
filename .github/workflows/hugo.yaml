@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: deploy-hugo
 
 on:
   # Runs on pushes targeting the default branch
@@ -53,11 +53,12 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - run: node --version
       - name: Setup node version
         uses: actions/setup-node@v4
         with:
           node-version: 22 # or a specific version like '18.x' or 'lts/*'
-          cache: 'npm' # Optional: Caching dependencies
+      - run: node --version
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -79,7 +80,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --baseURL "${{ steps.pages.outputs.origin }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache Save
         id: cache-save
