@@ -69,8 +69,6 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
-      - name: Set up npm dependencies
-        run: npm install
       - name: Build with Hugo
         run: |
           hugo \
