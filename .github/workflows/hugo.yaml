@@ -53,6 +53,11 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Setup node version
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22 # or a specific version like '18.x' or 'lts/*'
+          cache: 'npm' # Optional: Caching dependencies
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
