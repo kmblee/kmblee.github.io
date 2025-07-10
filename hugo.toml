@@ -82,3 +82,7 @@ title = 'Curious Robots'
     name = "CV"
     url = "/cv"
     weight = 30
+  
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
