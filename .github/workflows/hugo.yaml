@@ -53,6 +53,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          lfs: true
       - run: node --version
       - name: Setup node version
         uses: actions/setup-node@v4
