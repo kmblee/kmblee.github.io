@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DART_SASS_VERSION: 1.89.2
-      HUGO_VERSION: 0.148.0
+      HUGO_VERSION: 0.144.2
       HUGO_ENVIRONMENT: production
       TZ: America/Los_Angeles
     steps:
@@ -69,6 +69,8 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
+      - name: Set up npm dependencies
+        run: npm install
       - name: Build with Hugo
         run: |
           hugo \
