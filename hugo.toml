@@ -72,16 +72,6 @@ title = 'Ki Myung Brian Lee'
     name = "About"
     url = "/about"
     weight = 10
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog"
-    weight = 20
-  [[menu.main]]
-    identifier = "cv"
-    name = "CV"
-    url = "/cv"
-    weight = 30
   
 [caches]
   [caches.images]
