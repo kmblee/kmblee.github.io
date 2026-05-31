@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Curious Robots'
+title = 'Ki Myung Brian Lee'
 
 [markup]
   # (Optional) To be able to use all Prism plugins, the theme enables unsafe
@@ -59,7 +59,7 @@ title = 'Curious Robots'
 
 [params]
   author = "Ki Myung Brian Lee"
-  subtitle = "Academic Webpage"
+  subtitle = "Intrepid Robots"
   description = "Welcome to my academic webpage!"
   
   [params.logo]
