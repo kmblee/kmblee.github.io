@@ -10,6 +10,14 @@
         "city": "San Diego CA USA"
       },
       "profiles": [
+        {
+          "network": "googlescholar",
+          "url": "https://scholar.google.com/citations?user=JG77b7QAAAAJ&hl=en"
+        },
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/in/kmblee/"
+        }
       ]
     },
     "work": [
